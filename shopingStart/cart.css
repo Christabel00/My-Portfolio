@@ -1,0 +1,19 @@
+Mytable {
+    font-family: arial, sans-serif;
+    border-collapse:inherit;
+    width: 60%;
+    border-style:groove;
+    margin: 10px 10px 10px 10px;
+}
+
+td,
+th {
+    border: 2px solid gray;
+    text-align: left;
+    padding: 8px;
+   
+}
+
+tr:nth-child(even) {
+    background-color: solid grey;
+}
